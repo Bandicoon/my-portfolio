@@ -1,13 +1,20 @@
 import './styling/header.css';
 import laptop4 from '../images/laptop4.png'
 import arrow from '../images/arrow.png'
+import TypeAnimation from 'react-type-animation';
+
 const Header = () => {
   return (
     <div class='centering'>
       <div class='main'>
         <div class='text-wrapper'>
-          <h1 id='name'>Hi, my name is Derek</h1>
-          <p1 id='description'>a second year computer science student at UNSW</p1>
+          <TypeAnimation
+            cursor={true}
+            sequence={['Hi!', 4000, 'I\'m Derek! :)', 4000, '']}
+            wrapper="h1"
+            repeat={Infinity}
+          />
+          <p1>a second year computer science student at UNSW</p1>
         </div>
         <img src={laptop4}></img>
       </div>

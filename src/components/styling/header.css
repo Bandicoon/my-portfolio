@@ -20,11 +20,7 @@
     margin: 30px;
 }
 
-#name {
-    color: #A4D4B4;
-}
-
-#description {
+.text-wrapper h1, p1 {
     color: #A4D4B4;
 }
 
