@@ -1,0 +1,5 @@
+.backdrop {
+    /* background-image: url('./components/images/backdrop.jpg'); */
+    background: #3B1C32;
+    background-size: cover;
+}

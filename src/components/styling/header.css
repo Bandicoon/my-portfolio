@@ -1,0 +1,37 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55vh;
+    width: 60vw;
+}
+
+.centering {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.text-wrapper {
+    margin: 30px;
+}
+
+#name {
+    color: #A4D4B4;
+}
+
+#description {
+    color: #A4D4B4;
+}
+
+#arrow {
+    width: 50px;
+}
+
+#arrow-link {
+    position: absolute;
+}

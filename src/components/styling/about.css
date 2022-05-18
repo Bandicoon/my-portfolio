@@ -1,0 +1,14 @@
+.container {
+    padding-top: 20vh;
+    padding-left: 6vw;
+    padding-bottom: 10vh;
+    background-color: #F3B3A6;
+}
+
+.container > * {
+    color: #14281D;
+}
+
+.container h1, h2{
+    text-decoration: underline;
+}

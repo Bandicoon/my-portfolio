@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    display: flex;
+    width: 8vw;
+    height: 6vh;
+    justify-content: center;
+    align-items: center;
+    color: #14281D;
+    font-weight: bold;
+    background: #F3B3A6;
+    margin: 30px;
+    border-radius: 15px;
+}
