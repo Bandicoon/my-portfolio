@@ -16,9 +16,9 @@ const Header = () => {
           />
           <p1>a second year computer science student at UNSW</p1>
         </div>
-        <img src={laptop4}></img>
+        <img alt="laptop" src={laptop4}></img>
       </div>
-      <a href='#scrollDest' id='arrow-link'><img src={arrow} id='arrow'></img></a>
+      <a href='#scrollDest' id='arrow-link'><img alt="arrow" src={arrow} id='arrow'></img></a>
     </div>
   )
 }
